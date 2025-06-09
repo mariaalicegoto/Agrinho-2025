@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fontes e corpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f9f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho com banner */
+header .banner {
+  background: #2e8b57;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5fdf8;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* Banner principal */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1581888227599-779811a1194e?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Seções de texto */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.text-section {
+  margin-bottom: 50px;
+}
+
+.text-section h2 {
+  color: #2e8b57;
+  margin-bottom: 15px;
+}
+
+.text-section p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.text-section img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hero {
+    height: 220px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 20px 10px;
+  }
+}
